@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Home</title>
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .querySelector(".menumobile")
+          .addEventListener("click", function () {
+            if (
+              document.querySelector(".menu nav ul").style.display == "flex"
+            ) {
+              document.querySelector(".menu nav ul").style.display = "none";
+              document.querySelector(".config").style.display = "none";
+            } else {
+              document.querySelector(".menu nav ul").style.display = "flex";
+              document.querySelector(".config").style.display = "flex";
+            }
+          });
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <div class="logo">
+          <a hfer=""><img src="/assets/images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="menu">
+          <nav>
+            <div class="menumobile">
+              <div class="tabh"></div>
+              <div class="tabh"></div>
+              <div class="tabh"></div>
+            </div>
+            <ul class="active">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/precos.html">Preços</a></li>
+              <li><a href="/reclame.html">Reclame Aqui</a></li>
+              <li><a href="/aboutus.html">Sobre Nós</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="config">
+          <button class="login">Entrar</button>
+          <a id="idioma" href="">Português</a>
+        </div>
+      </div>
+    </header>
+    <section class="section-slide">
+      <div class="container">
+        <div class="slider">
+          <div class="text-area">
+            <div class="text">
+              <h1>Explore o mundo com muito mais conforto!</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim nisl, aliquam ut nisl sed, porta ornare lacus. Integer dui elit, feugiat in odio et, tincidunt bibendum justo.</p>
+            </div>
+            <div class="slide-botao">
+              <button class="botao-saiba-mais">Saiba Mais!</button>
+              <button class="login-slide">Entrar</button>
+            </div>
+          </div>
+          <div class="imageslider">
+            <img class="imgslider" src="/assets/images/d0b718cfacf03f92eb5736f3d5e79323.png" alt="explorador" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-dog">
+      <div class="section-body">
+        <div class="section-dog-img">
+          <img class="dogimg" src="/assets/images/ac6ce64aa89183a28e979fff33e6c2c0.png" alt="dog">
+          <img class="dogimg2" src="/assets/images/91ab0e9b701b8e14024770010d6d2713.png" alt="dog">
+        </div>
+        <div class="section-text-area">
+          <h1 class="section-text">Explore Acompanhado</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend arcu nec nisl congue porttitor. Morbi varius rutrum sollicitudin. Phasellus elit libero, consequat ac ligula non, lobortis condimentum magna. Aliquam rhoncus mi ac pulvinar imperdiet. Mauris tincidunt commodo magna ut tempus. Nam at ornare augue, vitae porttitor risus. Quisque euismod massa a ex imperdiet, vel dictum metus pellentesque. Donec efficitur nunc tortor, non consectetur augue molestie eu.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-agenda">
+      <div class="section-body">
+        <div class="section-text-area">
+          <h1 class="section-text">Agende a Qualquer Momento</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend arcu nec nisl congue porttitor. Morbi varius rutrum sollicitudin. Phasellus elit libero, consequat ac ligula non, lobortis condimentum magna. Aliquam rhoncus mi ac pulvinar imperdiet. Mauris tincidunt commodo magna ut tempus. Nam at ornare augue, vitae porttitor risus. Quisque euismod massa a ex imperdiet, vel dictum metus pellentesque. Donec efficitur nunc tortor, non consectetur augue molestie eu.</p>
+        </div>
+        <div class="section-agenda-img">
+          <img class="agendaimg" src="/assets/images/cdfffb36b1833b8a6828c5ce85910382.png" alt="agenda">
+        </div>
+      </div>
+    </section>
+    <section class="section-app">
+      <div class="section-body">
+        <div class="section-app-img">
+          <img class="appimg" src="/assets/images/47e022bd0704ff535deec6969ac11554.png" alt="app">
+        </div>
+        <div class="section-text-area">
+          <h1 class="section-text">Baixe o App</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend arcu nec nisl congue porttitor. Morbi varius rutrum sollicitudin. Phasellus elit libero, consequat ac ligula non, lobortis condimentum magna. Aliquam rhoncus mi ac pulvinar imperdiet. Mauris tincidunt commodo magna ut tempus. Nam at ornare augue, vitae porttitor risus. Quisque euismod massa a ex imperdiet, vel dictum metus pellentesque. Donec efficitur nunc tortor, non consectetur augue molestie eu.</p>
+          <img class="appstore" src="/assets/images/app-store-155321632.jpg" alt="appstore">
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-body">
+        <div class="footer-menu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/precos.html">Preços</a></li>
+            <li><a href="/reclame.html">Reclame Aqui</a></li>
+            <li><a href="/aboutus.html">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="email-body">
+          <form class="email-footer" action="/index.html">
+            <h1>Entre na Fila de Espera:</h1>
+            <input type="email" name="email" id="email" required>
+            <input type="submit" value="Ir Para Fila" id="emailbutton">
+          </form>
+        </div>
+        <div class="back-to-top-body">
+          <div class="back-to-top">
+            <a href="#top"><img src="/assets/images/pngwing.com (1).png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="footer2-body">
+          <div class="copy">
+            <p>&#169 empresaFake &#9679 2023</p>
+          </div>
+        </div>   
+      </div>
+    </footer>
+  </body>
+</html>
