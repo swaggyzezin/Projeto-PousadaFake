@@ -1,1 +1,1 @@
-first version (não responsiva).
+First Version (Não Responsiva).
